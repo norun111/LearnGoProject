@@ -15,7 +15,7 @@ func writeExample(w http.ResponseWriter, r *http.Request){
 
 func writeHeaderExample(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(501)
-	fmt.Fprintln(w, 'aaaaaa')
+	fmt.Fprintln(w, )
 }
 
 func main(){
