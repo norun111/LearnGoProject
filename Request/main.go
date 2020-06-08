@@ -22,6 +22,6 @@ func main() {
 		Addr: "127.0.0.1:8080",
 	}
 	http.HandleFunc("/header", headers)
-	http.HandleFunc("/header", headers)
+	http.HandleFunc("/body", body)
 	server.ListenAndServe()
 }
