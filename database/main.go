@@ -41,4 +41,25 @@ func GetPost(id int) (post Post, err error) {
 	return
 }
 
-func
+func (post *Post) create() (err error){
+	statement := "insert into posts (content, author) values ($2, $3) returning id"
+	stmt, err := Db.Prepare(statement)
+	if err != nil {
+		panic(err)
+	}
+	defer stmt.Close()
+	err = stmt.QueryRow(post.Content,post.Author).Scan(&post.Id)
+	return
+}
+
+func (post *Post) Update() (err error) {
+	_, err = Db.Exec("update posts content = $2, author = $3 where id = $1", post.Id, post.Content, post.Author)
+	return
+}
+
+func (post *Post) Delete() (err error) {
+	_, err = Db.Exec("delete from posts where id = $1", post.Id)
+	return
+}
+
+
