@@ -16,6 +16,10 @@ func store(post Post) {
 }
 
 func main() {
-
 	PostById = make(map[int]*Post)
+	PostsByAuthor = make(map[string][]*Post)
+
+	post1 := Post{Id:1, Content:"Hello", Author:"Sau Sheong"}
+
+	store(post1)
 }
