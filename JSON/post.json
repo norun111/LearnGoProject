@@ -3,13 +3,18 @@
   "content": "Hello World",
   "author": {
     "id": 2,
-    "name": "Sau Sheong",
+    "name": "Sau Sheong"
   },
   "comments": [
     {
       "id": 3,
       "content": "Have a great time",
-      "author"
+      "author": "Adam"
+    },
+    {
+      "id": 4,
+      "content": "Have a good day",
+      "author": "Betty"
     }
   ]
 }
