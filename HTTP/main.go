@@ -29,10 +29,17 @@ func login(w http.ResponseWriter, r *http.Request) {
 		r.ParseForm()
 		fmt.Println("username:", r.Form["username"])
 		fmt.Println("password:", r.Form["password"])
-		fmt.Println("username:", template.HTMLEscapeString(r.Form.Get("username"))) //サーバ側に出力されます。
+		fmt.Println("username:", template.HTMLEscapeString(r.Form.Get("username"))) 
 		fmt.Println("password:", template.HTMLEscapeString(r.Form.Get("password")))
 		template.HTMLEscape(w, []byte(r.Form.Get("username")))
 	}
+}
+
+func process(w http.ResponseWriter, r *http.Request){
+	t, _ := template.ParseFiles("form.html")
+	t.Execute(w, nil)
+	r.ParseForm()
+	fmt.Fprintln(w, r.Form)
 }
 
 func main(){
@@ -41,5 +48,6 @@ func main(){
 	}
 	http.HandleFunc("/", sayHello)
 	http.HandleFunc("/login", login)
+	http.HandleFunc("/process", process)
 	server.ListenAndServe()
 }
