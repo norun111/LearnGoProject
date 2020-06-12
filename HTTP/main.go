@@ -36,10 +36,11 @@ func login(w http.ResponseWriter, r *http.Request) {
 }
 
 func process(w http.ResponseWriter, r *http.Request){
-	t, _ := template.ParseFiles("form.html")
-	t.Execute(w, nil)
-	r.ParseForm()
-	fmt.Fprintln(w, r.Form)
+	//t, _ := template.ParseFiles("form.html")
+	//t.Execute(w, nil)
+	//r.ParseForm()
+	//fmt.Fprintln(w, r.Form["username"])
+	
 }
 
 func main(){
