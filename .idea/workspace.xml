@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37691f6b-d516-4ac4-9b7e-974c8cc7e3f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Flag/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flag/flag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greet/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycat/fuga.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycat/hoge.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycat/mycat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycat/mycat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flag/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Flag/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +61,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592452115547">
+    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592456182537">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1592452115547" />
+    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1592456182537" />
     <state x="147" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591950922602">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
