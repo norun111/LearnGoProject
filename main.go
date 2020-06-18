@@ -1,7 +1,10 @@
 package main
 
-import "github.com/tomoyaueno29/LearnGoProject/greeting"
+import (
+	"fmt"
+	"os"
+)
 
-func main() {
-	greeting.Do()
+func main(){
+	fmt.Println(os.Args)
 }
