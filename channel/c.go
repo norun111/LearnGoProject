@@ -25,6 +25,7 @@ func main() {
 
 	for i := 1; i <= 5; i++ {
 		tmp := <-ch
+
 		fmt.Println(tmp)
 	}
 
@@ -35,4 +36,6 @@ func main() {
 		tmp := <-ch
 		fmt.Println(tmp)
 	}
+
+
 }
