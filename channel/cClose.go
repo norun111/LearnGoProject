@@ -27,7 +27,7 @@ func main() {
 			if ok1 {
 				fmt.Printf("%s from A\n", msg)
 			}
-			case msg, ok2 := <-b:
+			case msg, ok2 = <-b:
 				if ok2 {
 					fmt.Printf("%s from B\n", msg)
 				}
