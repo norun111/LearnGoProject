@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37691f6b-d516-4ac4-9b7e-974c8cc7e3f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NM/arg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/arg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/bufio.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/closer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/echo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/filepath_walk.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/flag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/fuga.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/hoge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/mycat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/mycat.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/path.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/pointa.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/recieva.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NM/struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting/greeting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/func_interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/in.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/stringer_err.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycat/mycat" beforeDir="false" afterPath="$PROJECT_DIR$/mycat/mycat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycat/mycat.go" beforeDir="false" afterPath="$PROJECT_DIR$/mycat/mycat.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,5 +105,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="869" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1592978726210" />
+    <state x="120" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1592983950520">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="120" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592983950520" />
   </component>
 </project>
