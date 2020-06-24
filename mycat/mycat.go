@@ -9,34 +9,28 @@ import (
 )
 
 func main() {
-	var n =flag.Bool("n",false,"通し番号を付与する")
+	var n = flag.Bool("n", false, "通し番号を付与する")
 	flag.Parse()
-	var(
+
+	var (
 		files = flag.Args()
-		path,err = os.Executable()
+		path, _ = os.Executable()
 	)
-	if err!=nil{
-		fmt.Fprintln(os.Stderr,"読み込みに失敗しました",err)
-	}
 
-	//実行ファイルのディレクトリ名を取得
-	path=filepath.Dir(path)
-	//通し番号の用意
-	i:=1
+	path = filepath.Dir(path)
 
-	for x:=0;x<len(files);x++{
-		sf,err:=os.Open(filepath.Join(path,files[x]))
-		if err!=nil{
-			fmt.Fprintln(os.Stderr,"読み込みに失敗しました",err)
-		}else{
-			scanner :=bufio.NewScanner(sf)
-			for ;scanner.Scan();i++{
-				if *n{
-					//オプションがある場合
-					fmt.Printf("%v: ",i)
-				}
-				fmt.Println(scanner.Text())
+	i := 1
+	for x := 0; x < len(files); x++ {
+		sf, _ := os.Open(filepath.Join(path, files[x]))
+		scanner := bufio.NewScanner(sf)
+
+		for ;scanner.Scan(); i++ {
+			if *n{
+				//オプションがある場合
+				fmt.Printf("%v:\n", i)
 			}
+			fmt.Println("aa")
+			fmt.Println(scanner.Text())
 		}
 	}
 }
