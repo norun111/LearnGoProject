@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37691f6b-d516-4ac4-9b7e-974c8cc7e3f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NM/arg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/arg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/bufio.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/closer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/echo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/filepath_walk.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/flag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/fuga.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/hoge.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/mycat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/mycat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/path.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/pointa.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/recieva.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NM/struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greeting/greeting.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/channel/cClose.go" beforeDir="false" afterPath="$PROJECT_DIR$/channel/cClose.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycat/mycat" beforeDir="false" afterPath="$PROJECT_DIR$/mycat/mycat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycat/mycat.go" beforeDir="false" afterPath="$PROJECT_DIR$/mycat/mycat.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +65,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/greeting" />
       <recent name="$PROJECT_DIR$/Request" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="arg" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="LearnGoProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <parameters value="hello" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/|$PROJECT_DIR$/NM/arg.go" />
+      <package value="github.com/tomoyaueno29/LearnGoProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -57,13 +88,37 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592456182537">
+    <state x="153" y="182" key="#arg" timestamp="1592978544831">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1592456182537" />
-    <state x="147" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591950922602">
+    <state x="153" y="182" key="#arg/0.23.1680.1027@0.23.1680.1027" timestamp="1592978544831" />
+    <state x="153" y="182" key="#args" timestamp="1592978529581">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="147" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591950922602" />
+    <state x="153" y="182" key="#args/0.23.1680.1027@0.23.1680.1027" timestamp="1592978529581" />
+    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592978561557">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="0" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1592978561557" />
+    <state x="147" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592982063079">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="147" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1592982063079" />
+    <state width="869" height="280" key="GridCell.Tab.0.bottom" timestamp="1592978726210">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="869" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1592978726210" />
+    <state width="869" height="280" key="GridCell.Tab.0.center" timestamp="1592978726209">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="869" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1592978726209" />
+    <state width="869" height="280" key="GridCell.Tab.0.left" timestamp="1592978726209">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="869" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1592978726209" />
+    <state width="869" height="280" key="GridCell.Tab.0.right" timestamp="1592978726210">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="869" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1592978726210" />
   </component>
 </project>
