@@ -12,7 +12,8 @@ func main() {
 	increment := func() {
 		m.Lock()
 		count++
-		defer m.Unlock()
+		defer m.Unlock() //Lockが保持しているクリティカルセクションでの処理が終了
+
 		fmt.Println(count)
 	}
 
@@ -23,8 +24,9 @@ func main() {
 		fmt.Println(count)
 	}
 
-	//インクリメント
 	var arithmetic sync.WaitGroup
+
+	//インクリメント
 	for i := 0; i <= 5; i++{
 		arithmetic.Add(1)
 		go func() {
