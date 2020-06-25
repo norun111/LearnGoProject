@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37691f6b-d516-4ac4-9b7e-974c8cc7e3f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch/livelock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch/lock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/sync.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/sync2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch/sync3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch/livelock.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch/livelock.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
