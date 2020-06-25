@@ -22,4 +22,5 @@ func main() {
 		fmt.Printf("the value is %v.\n", data)
 	}
 	memoryAccess.Unlock()
+
 }
