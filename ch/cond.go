@@ -25,7 +25,7 @@ func main() {
 		for len(queue) == 2 {
 			c.Wait()
 		}
-		fmt.Println("adding to queue")
+		fmt.Println(i,"adding to queue")
 		queue = append(queue, struct{}{})
 		fmt.Println(queue)
 		go removeFromQueue(1*time.Second)
