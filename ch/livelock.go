@@ -51,7 +51,7 @@ func main() {
 				return
 			}
 		}
-		fmt.Fprintf(&out, "\n%v")
+		fmt.Fprintf(&out, "\n%v tosses her hands up in exasperation", name)
 	}
 
 	var peopleInHallway sync.WaitGroup
