@@ -1,6 +1,9 @@
 package main
 
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	done := make(chan interface{})
@@ -27,4 +30,5 @@ loop:
 		workCounter++
 		time.Sleep(1 * time.Second)
 	}
+	fmt.Println(workCounter)
 }
