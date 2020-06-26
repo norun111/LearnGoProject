@@ -19,15 +19,12 @@ loop:
 		}
 
 		select {
-		case <- done:
+		case <-done:
 			break loop
 		default:
 		}
 
 		workCounter++
-		time.Sleep(1*time.Second)
+		time.Sleep(1 * time.Second)
 	}
 }
-
-		workCounter++
-		time.Sleep(1 * time.Second)
