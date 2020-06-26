@@ -33,6 +33,7 @@ func run(name ...string) {
 
 func process(name string, isFin chan bool, wg *sync.WaitGroup) {
 	// wgの数を1つ減らす（この関数が終了した時）
+	//wg.Wait()はwg.Add(int)の数分だけのwg.Done()が通るまで、処理をブロックし続けます
 	defer wg.Done()
 	time.Sleep(2*time.Second)
 	fmt.Println(name)
