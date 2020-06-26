@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	start := time.Now()
 	c1 := make(chan interface{})
 	close(c1) //初期化されたチャネルをcloseで開放している
 	c2 := make(chan interface{})
@@ -21,6 +22,8 @@ func main() {
 			c2Count++
 		case <-time.After(1 * time.Second):
 			fmt.Println("Time out")
+		default:
+			fmt.Printf("\nIn default after %v\n", time.Since(start))
 		}
 	}
 	fmt.Printf("c1Count: %d\nc2Count: %d\n", c1Count, c2Count)
