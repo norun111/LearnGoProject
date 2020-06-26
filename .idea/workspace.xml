@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37691f6b-d516-4ac4-9b7e-974c8cc7e3f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch/broadcast.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch/broadcast2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pool_test/pool3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pool_test/pool3_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/pool/example.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/pool/pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/pool/pool2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan/1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan/2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan/3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan/4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +51,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/sync/pool/pool_test" />
       <recent name="$PROJECT_DIR$/greeting" />
       <recent name="$PROJECT_DIR$/Request" />
     </key>
