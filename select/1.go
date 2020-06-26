@@ -12,6 +12,9 @@ func main() {
 	c2 := make(chan interface{})
 	close(c2)
 
+	//var c3 chan<- int //panic: close of nil channel
+	//close(c3)
+
 	var c1Count, c2Count int
 
 	for i := 1000; i >= 0; i-- {
